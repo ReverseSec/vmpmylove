@@ -11,6 +11,8 @@ Inject vmpmylove at program start before any user execution.
 
 ## Showcase
 <img src="https://github.com/user-attachments/assets/d4cd30b9-2b3e-4de8-a705-f41bdaf1f5f5" alt="logo" width="700"/>
+<br></br>
+<em>tested on version 3.8, should work on newer versions also.</em>
 
 ## License
 vmpmylove is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
