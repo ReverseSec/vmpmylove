@@ -68,7 +68,7 @@ void vmpmylove()
                 rdatawritable = true;
             }
         }
-        Sleep(100);
+        Sleep(10);
     }
 
     BYTE* original = new BYTE[rdatasize];
@@ -78,11 +78,11 @@ void vmpmylove()
     {
         if (memcmp(original, rdataaddr, rdatasize) != 0)
         {
-            cout << "{ vmpmylove } IAT should be resolved rahhhh.\n";
+            cout << "{ vmpmylove } some IAT got resolved rahhhh.\n";
             suspendmylove();
             break;
         }
-        Sleep(100);
+        Sleep(20);
     }
 
     delete[] original;
